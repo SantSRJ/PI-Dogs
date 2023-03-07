@@ -1,0 +1,68 @@
+.card {
+  box-shadow: 0 2px 2px 0 rgb(255, 255, 255);
+  transition: all 0.3s ease 0s;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  box-shadow: rgb(255, 255, 255) 0px 5px 10px, rgb(255, 255, 255) 0px 3px 3px;
+  padding: 4em;
+  margin: 5em;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 2em;
+  width: 20em;
+  height: 20em;
+  -webkit-border-radius: 10px;
+  box-shadow: 0px 0px 5px 5px #f5f4f300;
+  -webkit-box-shadow: 0px 0px 5px 5px #fffdfc00;
+}
+
+
+
+.card:hover {
+  /* aca le colocamos a la imagen anpliar o disminuir  */
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 0.3s ease 0s;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  box-shadow: rgb(255, 255, 255) 0px 5px 10px, rgb(255, 255, 255) 0px 3px 3px;
+  padding: 4em;
+  margin: 5em;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 2em;
+  width: 20em;
+  height: 20em;
+  -webkit-border-radius: 10px;
+  box-shadow: 0px 0px 5px 5px #f5f4f300;
+  -webkit-box-shadow: 0px 0px 5px 5px #fffdfc00;
+
+}
+
+.info {
+  color: rgba(0, 0, 0, 0.577);
+  text-decoration: none;
+}
+
+h1 {
+  text-decoration: none;
+}
+
+.imageDog {
+  border-radius: 8px;
+  width: 250px;
+  height: 200px;
+
+}

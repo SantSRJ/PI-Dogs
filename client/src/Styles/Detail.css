@@ -1,0 +1,183 @@
+.divDetail {
+    width: 100%;
+    height: 150%;
+    background-size: cover;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.buttonHome1 {
+    color: #000000;
+    box-shadow: 0px 0px 5px 5px #f8f8f8;
+    -webkit-box-shadow: 0px 0px 5px 5px #ffffff;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transition: all 0.5s ease-in-out;
+    float: left;
+    font-size: medium;
+    margin-left: 20px;
+    margin-top: 36px;
+    height: 43px;
+    border: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.buttonHome1:hover {
+    color: #000000;
+    box-shadow: 0px 0px 15px 15px #434343;
+    -webkit-box-shadow: 0px 0px 15px 15px #474747;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
+
+}
+
+#home {
+    margin-left: 100px
+}
+
+.name {
+    margin-top: 5%;
+    margin-left: 48%;
+    color: lightblue;
+    text-shadow: 0 0 10px lightblue, 0 0 20px lightblue, 0 0 30px lightblue, 0 0 40px blue, 0 0 10px blue, 0 0 10px blue, 0 0 10px blue;
+
+}
+
+.asd {
+    display: inline-block;
+    padding: 0;
+    margin: 30px;
+    font-size: medium;
+}
+
+.asd li {
+    display: inline-block;
+}
+
+.image {
+    height: 80%;
+    max-height: 400px;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: rgb(253, 252, 252) 0px 10px 20px, rgb(255, 253, 253) 0px 6px 6px;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-left: 45%;
+
+}
+
+.allTemps {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    font-size: medium;
+}
+
+.allTemps li {
+    display: inline;
+
+}
+
+.caracts {
+    color: #000000;
+    font-size: large;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 30px;
+    margin-left: 45%;
+    text-shadow: 0 0 10px lightblue, 0 0 20px lightblue, 0 0 30px lightblue, 0 0 40px blue, 0 0 10px blue, 0 0 10px blue, 0 0 10px blue;
+}
+
+
+p {
+    font-size: large;
+    color: lightblue;
+    font-size: medium;
+    padding-bottom: 10px;
+    padding-top: 0;
+    margin-top: 5px;
+    margin-left: 45%;
+    text-shadow: 0 0 5px rgb(0, 0, 0), 0 0 10px rgb(0, 0, 0), 0 0 10px #000000, 0 0 10px #000000, 0 0 10px #0a0a0a, 0 0 10px #050505, 0 0 10px #000000;
+}
+
+.last {
+    margin-bottom: 40px;
+}
+
+.loading {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url('../Assets/searchFail.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.id {
+    background-image: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%);
+    font-size: medium;
+    margin-left: 0px;
+
+    height: 43px;
+    border: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.id:hover {
+    background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
+}
+
+.detail {
+    margin-top: 10px;
+    margin-left: 20%;
+}
+
+.buttonHome3 {
+    color: #ffffff;
+    background-color: #ff040478;
+    box-shadow: 0px 0px 5px 5px #ff040478;
+    -webkit-box-shadow: 0px 0px 5px 5px #ff040478;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transition: all 0.5s ease-in-out;
+    border: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 2%;
+    height: 55px;
+}
+
+.buttonHome3:hover {
+    color: black(0, 55, 255);
+    background-image: linear-gradient(to top, #ff040478 0%, #ff040478 100%);
+}
+
+.buttonDelete {
+    color: #ffffff;
+    background-color: #ff040478;
+    box-shadow: 0px 0px 5px 5px #ff040478;
+    -webkit-box-shadow: 0px 0px 5px 5px #ff040478;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transition: all 0.5s ease-in-out;
+    border: transparent;
+    border-radius: 8px;
+    border-color: #000000;
+    cursor: pointer;
+    margin-left: 2%;
+    height: 55px;
+}
+
+.buttonDelete:hover {
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to top, #f1040462 0%, #ff0202 100%);
+}
+
+.conta {
+    margin-left: 40%;
+}
