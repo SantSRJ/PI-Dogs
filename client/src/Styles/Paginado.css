@@ -14,27 +14,26 @@
     border-radius: 8px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
-    box-shadow: 0px 0px 5px 5px #00ffbb;
-    -webkit-box-shadow: 0px 0px 5px 5px #00ffbb;
+    box-shadow: 0px 0px 5px 5px orange;
+    -webkit-box-shadow: 0px 0px 5px 5px orange;
     border-radius: 15px;
     border: transparent;
     margin: 3px;
     color: rgb(0, 0, 0);
-    background-color: #00ffbb;
+    background-color: orange;
 }
 
 .paginado li button:hover{
     border-radius: 10px;
     -webkit-border-radius: 10px;
-    box-shadow: 0px 0px 15px 15px #00ffbb;
-    -webkit-box-shadow: 0px 0px 15px 15px #00ffbb;
+    box-shadow: 0px 0px 15px 15px red;
+    -webkit-box-shadow: 0px 0px 15px 15px red;
     border-radius: 15px;
     color: black;
-  }
+}
 
 .paginado li button:active{
-   
-    box-shadow: 0 1px #00ffbb;
+    box-shadow: 0 1px red;
     transform: translateY(1px);
 }
 

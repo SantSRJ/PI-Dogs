@@ -1,8 +1,8 @@
 .fetch{
   margin-left: 20px;
-  color: #f8f8f8;
-  box-shadow: 0px 0px 5px 5px #00ffbb;
-  -webkit-box-shadow: 0px 0px 5px 5px #00ffbb;
+  color: black;
+  box-shadow: 0px 0px 5px 5px rgb(66, 198, 242);
+  -webkit-box-shadow: 0px 0px 5px 5px rgb(66, 198, 242);
   transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
   transition: all 0.5s ease-in-out;
@@ -16,22 +16,23 @@
   }
   .fetch:hover{
     border-width: 1px;
-    color: #ffffff;
-  box-shadow: 0px 0px 15px 15px #00ffbb;
-  -webkit-box-shadow: 0px 0px 15px 15px #00ffbb;
-  transform: rotate(360deg);
-  -webkit-transform: rotate(360deg);
-  transition: all 0.5s ease-in-out;
+    color: black;
+    box-shadow: 0px 0px 15px 15px rgb(66, 198, 242);
+    -webkit-box-shadow: 0px 0px 15px 15px rgb(66, 198, 242);
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transition: all 0.5s ease-in-out;
   }
 
 .input{
-  background-color: rgba(0, 251, 226, 0.34);
+  background-color: rgb(66, 198, 242);
+  opacity: 80%;
   margin-left: 20px;
-    border-radius: 8px;
-    border-width: 1px;
-    color: #ffffff;
-  box-shadow: 0px 0px 5px 5px #00ffbb;
-  -webkit-box-shadow: 0px 0px 5px 5px #00ffbb;
+  border-radius: 8px;
+  border-width: 1px;
+  color: #ffffff;
+  box-shadow: 0px 0px 5px 5px rgb(66, 198, 242);
+  -webkit-box-shadow: 0px 0px 5px 5px rgb(66, 198, 242);
   transform: rotate(360deg);
   -webkit-transform: rotate(360deg);
   transition: all 0.5s ease-in-out;

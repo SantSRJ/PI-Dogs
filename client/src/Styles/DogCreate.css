@@ -1,7 +1,6 @@
 .divCreate {
     background-image: url('../Assets/Fondos-pantalla-perros-18.jpg');
-    background-size: 90%;
-    
+    background-size: cover;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -81,7 +80,7 @@ input {
 .temp1 {
     font-size: medium;
     background-color: #ffffff;
-    color: #14f000;
+    color: lightblue;
     box-shadow: 0px 0px 5px 5px #f8f8f8;
     -webkit-box-shadow: 0px 0px 5px 5px #ffffff;
     transform: rotate(360deg);
@@ -122,10 +121,10 @@ select:hover {
 }
 
 .salir {
-    background-color: #00f4bb58;
-    color: #000000;
-    box-shadow: 0px 0px 5px 5px #00f4bb;
-    -webkit-box-shadow: 0px 0px 5px 5px #00f4bb;
+    color: #ffffff;
+    background-color: #ff040478;
+    box-shadow: 0px 0px 5px 5px #ff040478;
+    -webkit-box-shadow: 0px 0px 5px 5px #ff040478;
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     transition: all 0.5s ease-in-out;
@@ -142,10 +141,8 @@ select:hover {
 }
 
 .salir:hover {
-    background-color: #00f4bb;
-    color: #000000;
-    box-shadow: 0px 0px 15px 15px #00f4bb;
-    -webkit-box-shadow: 0px 0px 15px 15px #00f4bb;
+    color: black(0, 55, 255);
+    background-image: linear-gradient(to top, #ff040478 0%, #ff040478 100%);   
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     transition: all 0.5s ease-in-out;
@@ -153,10 +150,10 @@ select:hover {
 }
 
 .salir1 {
-    background-color: #00f4bb58;
-    color: #000000;
-    box-shadow: 0px 0px 5px 5px #00f4bb;
-    -webkit-box-shadow: 0px 0px 5px 5px #00f4bb;
+    color: #ffffff;
+    background-color: #ff040478;
+    box-shadow: 0px 0px 5px 5px #ff040478;
+    -webkit-box-shadow: 0px 0px 5px 5px #ff040478;
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     transition: all 0.5s ease-in-out;
@@ -173,10 +170,8 @@ select:hover {
 }
 
 .salir1:hover {
-    background-color: #00f4bb;
-    color: #000000;
-    box-shadow: 0px 0px 15px 15px #00f4bb;
-    -webkit-box-shadow: 0px 0px 15px 15px #00f4bb;
+    color: black(0, 55, 255);
+    background-image: linear-gradient(to top, #ff040478 0%, #ff040478 100%);
     transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
     transition: all 0.5s ease-in-out;
@@ -192,36 +187,36 @@ select:hover {
 
 .nombre {
     margin-left: 40%;
-    color: #8cff00;
-   font-size: 23px;
+    color: rgb(61, 194, 238);
+    font-size: 23px;
 }
 
 .alt {
     margin-left: 39%;
-    color: #8cff00;
+    color: rgb(61, 194, 238);
     font-size: 20px;
 }
 
 .peso {
     margin-left: 40%;
-    color: #8cff00;
+    color: rgb(61, 194, 238);
     font-size: 20px;
 }
 
 .maximo {
     margin-left: 40%;
-    color: #8cff00;
+    color: rgb(61, 194, 238);
     font-size: 20px;
 }
 
 .vida {
     margin-left: 39%;
-    color: #8cff00;
+    color: rgb(61, 194, 238);
     font-size: 20px;
 }
 
 .imagen {
     margin-left: 42%;
-    color: #8cff00;
+    color: rgb(61, 194, 238);
     font-size: 20px;
 }
