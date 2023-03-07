@@ -199,7 +199,8 @@ export default function Home() {
           );
         })}
       </div>
+      {/*<Paginado2 allDogs={allDogs} dogsPerPage={dogsPerPage} page={page} setPage={setPage}/>*/}
       {/*<Paginado dogsPerPage={dogsPerPage} allDogs={allDogs.length} paginado={paginado} />*/}
-    </div>
+      </div>
   );
 }
