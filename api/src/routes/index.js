@@ -74,7 +74,6 @@ router.get("/dogs/:raceId", async (req, res, next) => {
         return res.status(200).send(allRaces[i]);
       }
     }
-
     res.status(404).send(`Lo siento, no tenemos una carrera con  ese ID 🤷‍♀️`);
   }
 });
