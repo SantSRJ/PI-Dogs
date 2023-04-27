@@ -18,19 +18,19 @@ export function getDogs(name) {
     try {
       if (name) {
         return axios
-          .get("http://localhost:3001/dogs?name=" + name)
+          .get("/dogs?name=" + name)
           .then((res) => dispatch({ type: GET_DOGS, payload: res.data }))
           .catch((err) => dispatch({ type: GET_DOGS, payload: err.data }));
       };
       
-      let json = await axios.get("http://localhost:3001/dogs");
+      let json = await axios.get("/dogs");
       return dispatch({
         type: GET_DOGS,
         payload: json.data,
       });
     } catch (err) {
       var fail = axios
-        .get("http://localhost:3001/dogs?name=" + name)
+        .get("/dogs?name=" + name)
         .then((res) => res.data);
       return dispatch({
         type: SEARCH_FAIL,
@@ -42,7 +42,7 @@ export function getDogs(name) {
 
 export function getTemperaments() {
   return async function (dispatch) {
-    let json = await axios.get("http://localhost:3001/temperaments", {});
+    let json = await axios.get("/temperaments", {});
     return dispatch({
       type: GET_TEMPERAMENTS,
       payload: json.data,
@@ -87,7 +87,7 @@ export function cleanDetail(payload){
 
 export function postDog(payload) {
   return async function (dispatch) {
-    let data = await axios.post(`http://localhost:3001/dogs`, payload);
+    let data = await axios.post("/dogs", payload);
     return dispatch({
       type: POST_DOGS,
       payload: data.data,
@@ -98,7 +98,7 @@ export function postDog(payload) {
 export function getDetail(id) {
   return async function (dispatch) {
     try {
-      let data = await axios.get(`http://localhost:3001/dogs/${id}`);
+      let data = await axios.get(`/dogs/${id}`);
       return dispatch({
         type: GET_DETAIL,
         payload: data.data,
@@ -117,7 +117,7 @@ export function orden_year(payload) {
 export function delete_dog(id) {
   return async function (dispatch) {
     try {
-      let data = await axios.delete(`http://localhost:3001/dogs/${id}`);
+      let data = await axios.delete(`/dogs/${id}`);
       return dispatch({
         type: DELETE_DOG,
         payload: data.data,
