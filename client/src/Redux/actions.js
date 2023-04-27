@@ -11,6 +11,7 @@ export const GET_DETAIL = "GET_DETAIL";
 export const SEARCH_FAIL = "SEARCH_FAIL";
 export const DELETE_DOG = "DELETE_DOG";
 export const ORDER_YEARS = "ORDER_YEARS";
+export const CLEAN_DETAIL = "CLEAN_DETAIL";
 
 export function getDogs(name) {
   return async function (dispatch) {
@@ -73,6 +74,13 @@ export function sortByName(payload) {
 export function sortByWeight(payload) {
   return {
     type: SORT_BY_WEIGHT,
+    payload,
+  };
+};
+
+export function cleanDetail(payload){
+  return {
+    type: CLEAN_DETAIL,
     payload,
   };
 };

@@ -8,6 +8,7 @@ import {
     GET_DETAIL,
     DELETE_DOG,
     ORDER_YEARS,
+    CLEAN_DETAIL
 } from "./actions.js";
   
 const initialState = {
@@ -106,6 +107,11 @@ function rootReducer(state = initialState, action) {
       return {
         ...state,
         detail: action.payload,
+      };
+    case CLEAN_DETAIL:
+      return {
+        ...state,
+        detail: [],
       };
     case ORDER_YEARS:
       const orden_year =

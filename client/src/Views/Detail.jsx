@@ -1,17 +1,20 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { useDispatch, useSelector } from 'react-redux';
-import { getDetail, delete_dog } from '../Redux/actions';
+import { useDispatch, useSelector, } from 'react-redux';
+import { getDetail, delete_dog, cleanDetail } from '../Redux/actions';
 import { useEffect } from 'react';
 import '../Styles/Detail.css';
 import { GiDogBowl, GiDogHouse, GiSittingDog } from "react-icons/gi";
 
 export default function Detail() {
   const dispatch = useDispatch();
+  
   const { id } = useParams();
   const myDog = useSelector((state) => state.detail);
-
+  
+  
   useEffect(() => {
+    dispatch(cleanDetail());
     dispatch(getDetail(id));
     return(() => dispatch(delete_dog({})))
   }, [dispatch, id]);
@@ -40,7 +43,7 @@ return (
             {myDog.min_weight} - {myDog.max_weight} kg
           </p>
           <h4 className="caracts">Esperanza de vida</h4>
-          <p className="last">{myDog.life_span} años</p>
+          <p className="last">{myDog.life_span}</p>
           <h4 className="caracts">Temperamentos</h4>
           <p className="last">{myDog.temperaments}</p>
           <div className="conta">
